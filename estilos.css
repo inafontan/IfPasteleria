@@ -1,0 +1,12 @@
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+
+.flex-container-productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
