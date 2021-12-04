@@ -56,17 +56,15 @@
           </div>
         </div>
       </nav>
-    
+    <div class="body-contacto"> </div>
       <div class="contact_form">
 
         <div class="formulario">      
-          <h1>Formulario de contacto</h1>
-            <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
-    
+          <h4>Dejanos un mensaje</h4>
+            <h3>Escribinos y en breve nos pondremos en contacto </h3>
     
               <form action="submeter-formulario.php" method="post">       
-    
-                
+                    
                     <p>
                       <label for="nombre" class="colocar_nombre">Nombre
                         <span class="obligatorio">*</span>
@@ -86,20 +84,7 @@
                       </label>
                         <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
                     </p>    
-                  
-                    <p>
-                      <label for="website" class="colocar_website">Sitio web
-                      </label>
-                        <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
-                    </p>    
-                  
-                    <p>
-                      <label for="asunto" class="colocar_asunto">Asunto
-                        <span class="obligatorio">*</span>
-                      </label>
-                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-                    </p>    
-                  
+                                    
                     <p>
                       <label for="mensaje" class="colocar_mensaje">Mensaje
                         <span class="obligatorio">*</span>
@@ -116,25 +101,25 @@
               </form>
         </div>  
       </div>
-    
+      <footer class="footer"> 
+        <div class="flex-container-footer">  
+
+          <div class="whatsapp"> 
+              <a href="https://api.whatsapp.com/send?phone=#" target="_blank"> 
+              <img src="../imagenes/whatsapp.png" width="40" height="40" alt=" ">  </a>
+          </div>
+  
+          <div class="instagram"> 
+              <a href="https://www.instagram.com/" target="_blank"> 
+              <img src="../imagenes/instagram.png" width="40" height="40" alt="Seguinos en Instagram"> </a>
+          </div>
+  
+          <div class="facebook"> 
+              <a href="https://www.facebook.com/" target="_blank">
+              <img src="../imagenes/facebook.png" width="38" height="38" alt="Visita nuestra página de Facebook"> </a>
+          </div>
+      </footer>
       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
