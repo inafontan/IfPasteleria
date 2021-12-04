@@ -32,7 +32,7 @@ header .overlay{
 }
 
 body {
-  background: url(./imagenes/background1.webp);
+  background: url(.imagenes/background1.webp);
   width: auto;
 }
 
